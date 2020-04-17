@@ -1368,7 +1368,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{CSA_URL}}/sessions?sessionCategory=<string>&startTime=<string>&endTime=<string>&contextId=<string>&extContextId=<string>&userId=<string>&extUserId=<string>&name=<string>&fields=<string>&limit=<long>&offset=<long>",
+							"raw": "{{CSA_URL}}/sessions?sessionCategory=<string>&startTime=<string>&endTime=<string>&contextId=<string>&contextExtId=<string>&userId=<string>&extUserId=<string>&name=<string>&fields=<string>&limit=<long>&offset=<long>",
 							"host": [
 								"{{CSA_URL}}"
 							],
@@ -1397,7 +1397,7 @@
 									"description": "Constrains the results by context Id"
 								},
 								{
-									"key": "extContextId",
+									"key": "contextExtId",
 									"value": "<string>",
 									"description": "Constrains the results by external context Id"
 								},
@@ -1447,7 +1447,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{CSA_URL}}/sessions?sessionCategory=<string>&startTime=<string>&endTime=<string>&contextId=<string>&extContextId=<string>&userId=<string>&extUserId=<string>&name=<string>&fields=<string>&limit=<long>&offset=<long>",
+									"raw": "{{CSA_URL}}/sessions?sessionCategory=<string>&startTime=<string>&endTime=<string>&contextId=<string>&contextExtId=<string>&userId=<string>&extUserId=<string>&name=<string>&fields=<string>&limit=<long>&offset=<long>",
 									"host": [
 										"{{CSA_URL}}"
 									],
@@ -1472,7 +1472,7 @@
 											"value": "<string>"
 										},
 										{
-											"key": "extContextId",
+											"key": "contextExtId",
 											"value": "<string>"
 										},
 										{
@@ -2717,7 +2717,7 @@
 							}
 						],
 						"url": {
-							"raw": "{{CSA_URL}}/recordings?startTime=<string>&endTime=<string>&contextId=<string>&extContextId=<string>&userId=<string>&extUserId=<string>&fields=<string>&limit=<long>&offset=<long>&name=<string>",
+							"raw": "{{CSA_URL}}/recordings?startTime=<string>&endTime=<string>&contextId=<string>&contextExtId=<string>&userId=<string>&extUserId=<string>&fields=<string>&limit=<long>&offset=<long>&name=<string>",
 							"host": [
 								"{{CSA_URL}}"
 							],
@@ -2741,7 +2741,7 @@
 									"description": "Constrains the results by context Id"
 								},
 								{
-									"key": "extContextId",
+									"key": "contextExtId",
 									"value": "<string>",
 									"description": "Constrains the results by external context Id"
 								},
@@ -2791,7 +2791,7 @@
 									}
 								],
 								"url": {
-									"raw": "{{CSA_URL}}/recordings?startTime=<string>&endTime=<string>&contextId=<string>&extContextId=<string>&userId=<string>&extUserId=<string>&fields=<string>&limit=<long>&offset=<long>&name=<string>",
+									"raw": "{{CSA_URL}}/recordings?startTime=<string>&endTime=<string>&contextId=<string>&contextExtId=<string>&userId=<string>&extUserId=<string>&fields=<string>&limit=<long>&offset=<long>&name=<string>",
 									"host": [
 										"{{CSA_URL}}"
 									],
@@ -2812,7 +2812,7 @@
 											"value": "<string>"
 										},
 										{
-											"key": "extContextId",
+											"key": "contextExtId",
 											"value": "<string>"
 										},
 										{
